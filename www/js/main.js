@@ -15,5 +15,4 @@ $(window).load(function() {
 
 	pow(9);
 
-
 })
