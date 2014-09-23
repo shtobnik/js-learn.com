@@ -1,9 +1,9 @@
 $(window).load(function() {
 
 	function calculate() {
-		var fields = $('#fields').find('input');
-			var prev = 0,
-				inv = 0;
+		var fields = $('#fields').find('input'),
+			prev = 0,
+			inv = 0;
 		fields.each(function(i, item) {
 			cur = item.value;
 			if (prev>cur){
