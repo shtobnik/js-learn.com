@@ -9,6 +9,25 @@
 	<script type="text/javascript" src="/js/main.js"></script>
 </head>
 <body>
-	<h1>This is js learn site</h1>
+	<div class="wrap">
+		<h1>This is js learn site</h1>
+
+		<div id="text">
+			<div id="fields">
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+				<p><input type="text"></p>
+			</div>
+			<p id='result'></p>
+			<a href="#" id="calculate">calculate</a>
+		</div>
+	</div>
 </body>
 </html>
